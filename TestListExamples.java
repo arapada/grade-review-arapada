@@ -19,3 +19,16 @@ public class TestListExamples {
     assertEquals(expected, merged);
   }
 }
+
+/**
+public class ListTest{
+  IsMoon sc = new IsMoon();
+  @Test
+  public void testFilter(){
+      //List<String> listOfString = new List<String>(){"dog", "elephant", "lizzard", "cat", "mouse"};
+      List<String> lst = Arrays.asList("moon", "smoon", "lizzard", "cat", "mouse");
+      List<String> lst2 = Arrays.asList("moon", "smoon");
+      assertArrayEquals((lst2).toArray(), ListExamples.filter(lst, sc).toArray());
+  }
+}
+*/
